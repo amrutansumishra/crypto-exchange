@@ -1,0 +1,124 @@
+.App{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fetch-data-btn{
+    position: absolute;
+    right: 20px;
+    padding: 5px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    color: rgb(18, 0, 96);
+}
+.header p{
+    color: rgb(1, 89, 165);
+}
+.exchange-header::after{
+    background: #149ddd;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    width: 80px;
+}
+.exchange-header{
+    color: rgb(1, 89, 165);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid  rgb(153, 153, 153);
+    padding:10px;
+    position: relative;
+}
+.body-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.search-bar .form-group{
+    position: relative;;
+}
+.form-group input{
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid  rgb(153, 153, 153);
+    font-weight: 600;
+}
+.search-icon {
+     position: absolute;
+     right: 20px;
+     top:10px
+}
+.crypto-exchange-table{
+    width: 100%;
+    margin-top: 3%;
+}
+.table-row{
+    border-top: 1px solid  rgb(153, 153, 153);
+}
+.table-row-content{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+padding:10px 20%;
+font-size: 12px;
+font-weight: 700;
+}
+.table-row-header{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding:10px 20%;
+    border-top:none;
+    font-weight: 700;
+    color: rgb(99, 99, 110);
+}
+.table-col{
+    display: flex;
+    align-items: center;
+    color:rgb(12, 12, 90)
+}
+.table-col img{
+    padding:0 6px;
+    height: 25px;
+}
+
+.pagination{
+    display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+
+.pagination .previous, .next{
+    border:1px solid  rgb(153, 153, 153) ;
+    border-radius:50px ;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin:0 10px;
+}
+.pagination__disable{
+    opacity: 0;
+}
+.pagination .number{
+    padding: 10px;
+    margin:0 10px;
+    border-radius: 3px;
+}
+.pagination .acc{
+    background-color:  rgb(0, 43, 79);
+    color:#fff;
+}
+.pagination .active{
+    background-color:  rgb(1, 89, 165);
+    color: #fff;
+}
